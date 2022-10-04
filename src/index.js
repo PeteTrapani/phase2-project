@@ -7,11 +7,14 @@ import AboutButton from './Structures/Header';
 import CompareUsers from './Structures/Compare';
 import SteamUser from './Structures/SteamUser';
 import Header from './Structures/Header';
+import recentGames from './Structures/RecentGames';
+import ScrollIndicator from './Structures/ScrollIndicator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <ScrollIndicator />
   </React.StrictMode>
 );
 

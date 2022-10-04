@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./App.css";
-import recentGames from './Structures/FetchAPI2';
+import recentGames from './Structures/RecentGames';
 import Header from './Structures/Header';
 
 function App() {
   return (
     <div className="App">App
-      <personaName />
+      <h1>useEffect</h1>
+      {/* <button onClick={() => }</button> */}
     </div>
   )
 }
